@@ -4,7 +4,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="calc.ico" />
   <font size="+10">Html Calculator</font>
 </head>
-<body bgcolor= "##66b3ff" text= "white">
+  <div class="navbar">
+  <a class="active" href="#home">Home</a>
+  <a href="#contributors">Contributors</a>
+  <a href="#instructions">Instructions</a>
+</div>
+<div class="calculator"> <body bgcolor= "##66b3ff" text= "white">
 <form name="calculator" >
 <br><input type="button" value="1" onClick="document.calculator.ans.value+='1'">
 <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
@@ -24,6 +29,5 @@
 <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
 </br><br><body text = white>=<input type="textfield" name="ans" value="">
 </form>
-</body>
+</div>
 </html>
-
