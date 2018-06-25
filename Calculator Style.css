@@ -6,6 +6,71 @@ body{
     
 }
 
-#plus{
-    height:60px;
+#answer{
+    width:1350;
+    height:50;
 }
+
+.button{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    border: 2px solid grey;
+    height:100;
+    width:220;
+}
+
+#plus{
+    position:relative;
+    left:-18;
+}
+
+#negative{
+    position:relative;
+    top:-20;
+    left:-18;
+}
+
+#one{
+    position: relative;
+    left:0;
+}
+
+#two{
+  position: relative;
+  left:-6;
+}
+
+#three{
+    position: relative;
+    left:-12;
+}
+
+#four{
+    position: relative;
+    left:0;
+    top:-20;
+}
+
+#five{
+  position: relative;
+  left:-6;
+  top:-20;
+}
+
+#six{
+    position: relative;
+    left:-12;
+    top:-20;
+}
+
+#seven{
+    position: relative;
+    top:-40;
+}
+
+#eight{
+    position: relative;
+    left:-6;
+    top:-40;
+}
+
