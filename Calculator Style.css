@@ -2,13 +2,18 @@
 
 body{
     margin:0px;
-    background-image: url("https://i.imgur.com/Nbi7bYI.jpg");
+    background-color:white;
+    background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c21.jpg");
+    font-family: 'Didact Gothic';
+
     
 }
 
-#answer{
-    width:1350;
-    height:50;
+#result{
+    width:873;
+    height:60;
+    font-size:30;
+    font-family: 'Actor';font-size: 22px;
 }
 
 .button{
@@ -17,77 +22,113 @@ body{
     border: 2px solid grey;
     height:100;
     width:220;
+    background-color: white;
 }
 
 #plus{
     position:relative;
     left:-18;
+    background-color: E3E1E1;
 }
 
-#negative{
+#minus{
     position:relative;
-    top:-20;
+    top:-22;
     left:-18;
+    background-color: E3E1E1;
 }
 
 #zero{
     position:relative;
-    top:-60;
+    top:-66;
+    font-weight: bold;
 }
 
 #one{
     position: relative;
     left:0;
+    font-weight: bold;
 }
 
 #two{
   position: relative;
   left:-6;
+  font-weight: bold;
 }
 
 #three{
     position: relative;
     left:-12;
+    font-weight: bold;
 }
 
 #four{
     position: relative;
     left:0;
-    top:-20;
+    top:-22;
+    font-weight: bold;
 }
 
 #five{
   position: relative;
   left:-6;
-  top:-20;
+  top:-22;
+  font-weight: bold;
 }
 
 #six{
     position: relative;
     left:-12;
-    top:-20;
+    top:-22;
+    font-weight: bold;
 }
 
 #seven{
     position: relative;
-    top:-40;
+    top:-44;
+    font-weight: bold;
 }
 
 #eight{
     position: relative;
     left:-6;
-    top:-40;
+    top:-44;
+    font-weight: bold;
 }
 
 #nine{
     position:relative;
     left:-12;
-    top:-40;
+    top:-44;
+    font-weight: bold;
 }
 
 #multiply{
     position:relative;
     left:-18;
-    top:-40;
+    top:-44;
+    background-color: E3E1E1;
+}
+
+#equals{
+    position:relative;
+    top:-66;
+    left:-12;
+    background-color: E3E1E1;
+}
+
+#c{
+    position:relative;
+    top:-66;
+    left:-6;
+    font-weight: 10;
+    background-color: E3E1E1;
+}
+
+#divide{
+    position:relative;
+    top:-66;
+    left:-18;
+    background-color: E3E1E1;
 }
 
