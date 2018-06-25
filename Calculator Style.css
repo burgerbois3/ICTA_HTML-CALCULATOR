@@ -2,7 +2,7 @@
 
 body{
     margin:0px;
-    background-color: rgb(244, 231, 189);
+    background-image: url("https://i.imgur.com/Nbi7bYI.jpg");
     
 }
 
@@ -28,6 +28,11 @@ body{
     position:relative;
     top:-20;
     left:-18;
+}
+
+#zero{
+    position:relative;
+    top:-60;
 }
 
 #one{
@@ -71,6 +76,18 @@ body{
 #eight{
     position: relative;
     left:-6;
+    top:-40;
+}
+
+#nine{
+    position:relative;
+    left:-12;
+    top:-40;
+}
+
+#multiply{
+    position:relative;
+    left:-18;
     top:-40;
 }
 
