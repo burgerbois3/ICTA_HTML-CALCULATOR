@@ -25,6 +25,10 @@ body{
     background-color: white;
 }
 
+.button:hover{
+    filter:brightness(80%);
+}
+
 #plus{
     position:relative;
     left:-18;
